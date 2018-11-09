@@ -1,11 +1,5 @@
-sample.pdf: satan.dat
-	python plots.py
-	rm satan.a
-	rm stan.dat
-
-satan.dat: sample.c
-	gcc -o satan.a sample.c -lm
-	./satan.a
-	./satan.a 2000 8 2
-	rm satan.a
-
+cuenta.x: cuenta.cpp
+	g++ -o cuenta.x cuenta.cpp -lm
+#	./cuenta.x
+	./cuenta.x archivo.txt cuenta.txt tiempo.txt 
+	rm cuenta.x
