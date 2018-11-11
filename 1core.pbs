@@ -1,13 +1,13 @@
 #!/bin/bash
 
-#PBS -N JavierAcevedo25
-#PBS -l nodes=1:ppn=8:intel
-#PBS -l walltime=:500:00
-#PBS -l mem=28gb
+#PBS -N JavierAcevedo26
+#PBS -l nodes=1:ppn=1:intel
+# PBS -l walltime=:5:00
+#PBS -l mem=2gb
 #PBS -M ja.acevedo12@uniandes.edu.co
 #PBS -m ae
 #PBS -j oe
-#PBS -o out25.log
+#PBS -o out26.log
 
 # cd $PBS_O_WORKDIR
 
@@ -15,11 +15,11 @@ pwd
 cd ja.acevedo12/JavierAcevedo_Ejercicio26
 
 module load anaconda/python3
-#make
+./partirArchivos.sh
 #cp sample.pdf ..
 # mkdir images
 # mkdir datFiles
-
+cp plot.png 1core.png
 
 # mv -f $TMPDIR/CollisionalDarkMatterSimulation/images/ ./images
 # mv -f $TMPDIR/CollisionalDarkMatterSimulation/datFiles/ ./datFiles
