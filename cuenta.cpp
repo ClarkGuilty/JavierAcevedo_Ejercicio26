@@ -4,22 +4,18 @@
 #include <math.h>
 #include <iostream>
 #include <fstream>
-#include <cstring>
+#include <string>
 #include <algorithm>
-
+#include <ctime>
 
 #define PI 3.141592653589793
 
 using namespace std;
 
 int main( int argc, char *argv[] ) {
-int t1 = 0;
-   int t12 = 0;
-   int t123 = 0;
-   int t1234 = 0;
-   int t12345 = 0;
-   string arch;
-   
+    
+    std::clock_t tiempo0 = clock();
+      
    if( argc != 4 ) {
 		printf("La entrada debe ser de la forma %s archivo.txt cuenta.txt tiempo.txt \n", argv[0]);
         printf("%d\n",argc);
@@ -28,76 +24,106 @@ int t1 = 0;
    
 
   string line;
-  ifstream myfile ("Pi_2500000.txt");
+  ifstream myfile (argv[1]);
   if (myfile.is_open())
   {
-    while ( getline (myfile,line) )
-    {   
-//      cout << line << '\n';
-      line << '\n';
-      arch = line;
-    }
+    getline (myfile,line);
+
     myfile.close();
   }
   else cout << "Unable to open file"; 
-  cout << arch;
+
   
 
-std::string s = "a_b_c";
-s = arch;
-size_t n = std::count(s.begin(), s.end(), '1');
-size_t n = std::count(s.begin(), s.end(), '12');
-size_t n = std::count(s.begin(), s.end(), '123');
-size_t n = std::count(s.begin(), s.end(), '1234');
-size_t n = std::count(s.begin(), s.end(), '12345');
-/*
 
-
-
-char tab2[10000];
-strcpy(tab2, arch.c_str());
-
-  int count;
-  int i = 0;
-//  for(int i =0;i<strlen(arch);i++){
-while(tab2[i] != '\0')
+int n1=0;
+int n12=0;
+int n123=0;
+int n1234=0;
+int n12345=0;
+char anterior1;
+char anterior2;
+char anterior3;
+char anterior4;
+for (int i = 0; i < line.size()-4; i++) 
     {
-        if(tab2[i] == '1')
-        {
-            count++;
-        }
-
-        i++;
+       if (line.at(i) == '1'){
+        n1++;
+        if(line.at(i+1) == '2'){
+            n12++;
+            if(line.at(i+2) == '3'){
+                n123++;
+                if(line.at(i+3) == '4'){
+                    n1234++;
+                    if(line.at(i+4) == '5'){
+                            n12345++;
+                        }
+                    }
+                }
+            }
+       }
     }
-    */
-  
-  return 0;
+    
+//Horrible forma de escribir esto, pero no tanto como vivir.
+    
+for(int i = line.size()-4; i<line.size()-3;i++){
+    if (line.at(i) == '1'){
+        n1++;
+        if(line.at(i+1) == '2'){
+            n12++;
+            if(line.at(i+2) == '3'){
+                n123++;
+                if(line.at(i+3) == '4'){
+                    n1234++;
+                }
+            }
+        }
+    }
 }
 
+for(int i = line.size()-3; i<line.size()-2;i++){
+    if (line.at(i) == '1'){
+        n1++;
+        if(line.at(i+1) == '2'){
+            n12++;
+            if(line.at(i+2) == '3'){
+                n123++;
+            }
+        }
+    }
+}
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    
-	
-/*
-FILE *output = fopen("sample.dat", "w+");
-	for(i=0;i<N;i+=1){
-            fprintf(output, "%f\n",arreglo[i]*sigma+mu); 
-			}
-	fclose(output);
-    output = fopen("stan.dat", "w+");
-    fprintf(output,"%d\n",N); 
-    fprintf(output,"%d\n",mu); 
-    fprintf(output,"%d\n",sigma); 
+for(int i = line.size()-2; i<line.size()-1;i++){
+    if (line.at(i) == '1'){
+        n1++;
+        if(line.at(i+1) == '2'){
+            n12++;
+        }
+    }
+}
+
+for(int i = line.size()-1; i<line.size();i++){
+    if (line.at(i) == '1'){
+        n1++;
+    }
+}
+  
+
+
+FILE *output = fopen(argv[2], "w+");
+    fprintf(output,"%d\n",n1); 
+    fprintf(output,"%d\n",n12); 
+    fprintf(output,"%d\n",n123); 
+    fprintf(output,"%d\n",n1234); 
+    fprintf(output,"%d\n",n12345); 
     fclose(output);
-  */  
+
+    output = fopen(argv[3], "w+");    
+    double duration = ( std::clock() - tiempo0 ) / (double) CLOCKS_PER_SEC;
+    fprintf(output,"%f\n",duration); 
+    fclose(output);
+    return 0;
+}
+    
+
     

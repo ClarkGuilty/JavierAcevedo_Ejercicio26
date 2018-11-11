@@ -12,11 +12,11 @@
 # cd $PBS_O_WORKDIR
 
 pwd
-cd ja.acevedo12/JavierAcevedo_Ejercicio25
+cd ja.acevedo12/JavierAcevedo_Ejercicio26
 
 module load anaconda/python3
-make
-cp sample.pdf ..
+#make
+#cp sample.pdf ..
 # mkdir images
 # mkdir datFiles
 
