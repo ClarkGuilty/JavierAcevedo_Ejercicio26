@@ -17,6 +17,4 @@ do
 done
 paste -d' ' tiempos.txt partes > time.txt
 rm x* cuenta.x temp.txt partes temp2.txt tiempo.txt tiempos.txt cuenta.txt
-python plots.py
-rm time.txt
-make
+#make
