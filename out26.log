@@ -4,139 +4,139 @@ split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47513 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49087 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47520 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49094 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47527 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49101 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47593 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49109 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47600 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49116 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47607 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49123 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47614 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49130 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47621 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49137 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47628 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49144 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47635 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49151 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47642 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49158 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47649 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49165 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47656 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49172 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47663 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49179 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47670 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49186 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47677 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49193 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47684 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49200 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47691 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49208 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47698 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49215 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47705 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49222 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47712 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49229 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47719 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49236 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 split: invalid option -- 'n'
 Try `split --help' for more information.
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-Unable to open file./partirArchivos.sh: line 9: 47726 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
+Unable to open file./partirArchivos.sh: line 9: 49243 Aborted                 ./cuenta.x $file cuenta.txt tiempo.txt
 rm: cannot remove `x*': No such file or directory
 Traceback (most recent call last):
   File "plots.py", line 6, in <module>
