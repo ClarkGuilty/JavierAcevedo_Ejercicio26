@@ -14,6 +14,7 @@ pwd
 cd ja.acevedo12/JavierAcevedo_Ejercicio26
 
 module load anaconda/python3
+module load gcc/4.9.4
 ./partirArchivos.sh
 #cp sample.pdf ..
 # mkdir images
