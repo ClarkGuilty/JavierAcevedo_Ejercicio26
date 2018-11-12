@@ -5,7 +5,7 @@ touch partes
 for N in 1 2 3 4 5 6 7 8 9 10 15 20 25 30 35 40 45 50 60 70 80 90 100
 do
 	rm x*
-	split -n $N Pi_2500000.txt
+	./split -n $N Pi_2500000.txt
 	for file in x*
 	do
 		./cuenta.x $file cuenta.txt tiempo.txt

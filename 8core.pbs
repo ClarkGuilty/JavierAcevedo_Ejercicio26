@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#PBS -N JavierAcevedo26
+#PBS -N JavierAcevedo26-8n
 #PBS -l nodes=1:intel:ppn=8
 # PBS -l walltime=:5:00
 #PBS -M ja.acevedo12@uniandes.edu.co
