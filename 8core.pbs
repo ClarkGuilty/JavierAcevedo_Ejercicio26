@@ -1,9 +1,8 @@
 #!/bin/bash
 
 #PBS -N JavierAcevedo26
-#PBS -l nodes=1:ppn=8:intel
+#PBS -l nodes=1:intel:ppn=8
 # PBS -l walltime=:5:00
-#PBS -l mem=2gb
 #PBS -M ja.acevedo12@uniandes.edu.co
 #PBS -m ae
 #PBS -j oe
@@ -19,7 +18,7 @@ module load anaconda/python3
 #cp sample.pdf ..
 # mkdir images
 # mkdir datFiles
-cp plot.png 8core.png
+cp time.txt 8core.txt
 
 # mv -f $TMPDIR/CollisionalDarkMatterSimulation/images/ ./images
 # mv -f $TMPDIR/CollisionalDarkMatterSimulation/datFiles/ ./datFiles

@@ -1,2 +1,2 @@
 plot.png:
-	python plot.py
+	python plots.py
